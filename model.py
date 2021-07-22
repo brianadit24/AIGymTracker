@@ -128,7 +128,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                                          thickness=2,
                                                          circle_radius=2))
 
-        cv2.imshow('AI with Mediapipe', image)
+        cv2.imshow('AI Gym Tracker', image)
 
         if cv2.waitKey(10) & 0xFF == ord('q'):
             break
